@@ -1,0 +1,26 @@
+.container{
+    width: 100%;
+    background-color: #380158;
+    border-bottom: 0.5px solid #afafaf;
+    padding: 34px 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    a{
+        margin-left: 38.9px;
+        color: aliceblue;
+        font-size: 22px;
+    }
+}
+
+.button{
+    padding: 15px 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #0dc74f;
+    color: aliceblue;
+}
