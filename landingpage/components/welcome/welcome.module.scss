@@ -10,3 +10,26 @@
         opacity: 0.8;
     }
 }
+
+
+.wrapper {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Adiciona espaço entre as colunas */
+    padding-top: 30px;
+    padding-bottom: 34px;
+    width: 80%; /* Ajuste conforme necessário */
+}
+
+.image {
+    text-align: end;
+}
+
+
